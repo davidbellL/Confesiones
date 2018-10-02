@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="size.css">
+    
+    <title>Confesiones de la gente</title>
+  
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+@import url(http://fonts.googleapis.com/css?family=Anton);
+body{
+   background:rgb(112,165,57);/*color de fondo*/
+}
+</style>
+	  
+</head>
+<body>
+<div class="Linea"></div>
+<div class="Logo"><img src="images/Logo.png" width="174" height="176"></div>
+<div id="Titulo">CONFESIONES DE LA GENTE</div>
+<div id="Encabezado">Las mejores confesiones de IG la encontras acá!</div>
+<div id="Fecha_y_Hora">MD  -  27 / 09 / 2018  -  17:30 hs.</div>
+<div id="Numero">#650</div>
+<div class="Publicita"> <a href="mailto:contacto@confesionesdelagente.com"><img src="images/IconoPublicitar.png" width="120" height="122"></a></div>
+<div class="Caja"></div>
+<div id="Arroba">@ C O N F E S I O N E S D E L A G E N T E</div>
+
+<div id="CopyRight_Chico">Bs. As. / Arg. / ©2018 Confesiones de la Gente
+<br> <a href="mailto:contacto@confesionesdelagente.com">Contacto@confesionesdelagente.com</a> </br></div>
+
+<div id="CopyRight">Buenos Aires / Argentina / ©2018 / Confesiones de la Gente / <a href="mailto:contacto@confesionesdelagente.com">Contacto@confesionesdelagente.com</a></div>
+
+<form action="">
+<textarea id="InputField" cols="1" maxlength="350" ></textarea>
+   <!--<button>Send</button>-->
+  <input id="Enviar" type=image src="images/Enviar.png">
+</form>
+   
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+
+<script>
+
+  $(function () {
+    var socket = io();
+    $('form').submit(function(){
+      socket.emit('streaming', $('#InputField').val() + "*");
+      $('#InputField').val('');
+      return false;
+    });
+    socket.on('streaming', function(data){
+	 //mensaje recivido e impreso en la misma ventana
+     //$('#messages').append($('<li>').text("user#" + data.id + ": " + data.msg));
+    });
+  });
+</script>
+
+</body>
+</html>
