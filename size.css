@@ -1,0 +1,533 @@
+/*////////////////      CHICO      /////////////////*/
+@media only screen and (max-width: 485px) {
+
+.Logo img {
+	position:absolute;
+	width:100px;
+	height:100px;
+	left: 6px;
+	top: 6px;
+	}	
+.Publicita img{
+	position:absolute;
+	width:90px;
+	height:90px;
+	z-index:9;
+	margin:0px;
+	right: 15px;
+	top: 96px;
+	}	
+#Titulo{
+    position:absolute;
+	width:517px;
+	height:57px;
+	font-family: "Anton";
+	font-size:25px;
+	left: 122px;
+	top: 6px;
+    margin: 0px;
+	color: #FFF;
+	}
+#Encabezado{
+	position:absolute;
+	width:516px;
+	height:48px;
+	font-family: "Anton";
+	font-size:12px;
+	left: 125px;
+	top: 45px;
+	margin: 0px;
+	color: #FFF;
+	}
+.Linea{
+	position:absolute;
+	width:235px;
+	height:0px;
+	border: 1px solid white;
+	left: 123px;
+	margin: 0;
+	top: 41px;
+	border-radius: 10px;
+	}
+#Numero{
+	position:absolute;
+	width:174px;
+	height:51px;
+	font-family: "Anton";
+	font-size:25px;
+	left: 205px;
+	top: 78px;
+	margin: 0;
+	color: #FFF;
+	}
+#Fecha_y_Hora{
+	position:absolute;
+	width:418px;
+	height:51px;
+	font-family: "Anton";
+	font-size:12px;
+	left: 10px;
+	top: 123px;
+	margin:0px;
+	color: #FFF;
+	}
+.Caja {
+	position:absolute;
+	width:auto;
+	height:450px;
+	border: 2px solid white;
+	right:10px;
+    left:10px;
+	top: 140px;
+	border-radius: 10px;
+	}
+#InputField{
+	position:absolute;
+	width:88%;
+	height:430px;
+	font-family: "Anton";
+	font-size:20px;
+	text-align: center;
+	left: 18px;
+	top: 150px;
+	background: transparent;
+	border:none;
+	color: white;
+	resize: none;
+}
+#Enviar{
+	position:absolute;
+	width:145px;
+	height:61px;
+	left: -72px;
+	top: 563px;
+	margin-left:  50%;
+}
+#Arroba{
+	position:absolute;
+	width:535px;
+	height:35px;
+	font-family: "Anton";
+	font-size:19px;
+	left: -139px;
+	top: 650px;
+	margin-left: 50%;
+	color: #FFF;
+}
+#CopyRight_Chico{
+	position:absolute;
+	text-align:center;
+	width:553px;
+	height:26px;
+	font-family: "Arial";
+	font-size:12px;
+	left: -275px;
+	
+	margin-left: 50%;
+	bottom:14px;
+	margin-bottom:0px;
+	color: #000;
+}
+
+#CopyRight{
+	visibility:hidden;
+}
+
+
+}
+
+/*////////////////     INTERMEDIO CHICO / MEDIANO      /////////////////*/
+@media only screen and (min-width: 485px) and (max-width: 794px) {
+	
+#Titulo{
+    position:absolute;
+	width:517px;
+	height:57px;
+	font-family: "Anton";
+	font-size:30px;
+	left: 170px;
+	top: 10px;
+    margin:0;
+	color: #FFF;
+	}
+#Encabezado{
+	position:absolute;
+	width:516px;
+	height:48px;
+	font-family: "Anton";
+	font-size:14.7px;
+	left: 172px;
+	top: 58px;
+	margin: 0;
+	color: #FFF;
+	}
+.Linea{
+	position:absolute;
+	width:283px;
+	height:0px;
+	border: 1px solid white;
+	left: 172px;
+	margin-:0;
+	top: 53px;
+	border-radius: 10px;
+	}
+#Numero{
+	position:absolute;
+	width:174px;
+	height:51px;
+	font-family: "Anton";
+	font-size:30px;
+	left: 280px;
+	top: 110px;
+	margin:0;
+	color: #FFF;
+	}
+#Fecha_y_Hora{
+	position:absolute;
+	width:418px;
+	height:51px;
+	font-family: "Anton";
+	font-size:14.7px;
+	left: 10px;
+	top: 179px;
+	margin:0px;
+	color: #FFF;
+	}
+.Publicita img{
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:9;
+	margin:0px;
+	right: 14px;
+	top: 150px;
+	}
+.Caja {
+	position:absolute;
+	width:auto;
+	height:450px;
+	border: 3px solid white;
+	right:10px;
+    left:10px;
+	top: 200px;
+	border-radius: 10px;
+	}
+.Logo img {
+	position:absolute;
+	width:140px;
+	height:140px;
+	left: 10px;
+	top: 14px;
+	margin:0px;
+	}
+	
+#InputField{
+	position:absolute;
+	width:90%;
+	height:430px;
+	font-family: "Anton";
+	font-size:24px;
+	text-align: center;
+	left: 25px;
+	top: 213px;
+	background: transparent;
+	border:none;
+	color: white;
+	resize: none;
+}
+
+#Enviar{
+	position:absolute;
+	width:180px;
+	height:76px;
+	left: -90px;
+	top: 616px;
+	margin-left:  50%;
+}
+
+#Arroba{
+	position:absolute;
+	width:535px;
+	height:35px;
+	font-family: "Anton";
+	font-size:23px;
+	left: -166px;
+	top: 730px;
+	margin-left: 50%;
+	color: #FFF;
+}
+
+#CopyRight{
+	position:absolute;
+	width:553px;
+	height:26px;
+	font-family: "Arial";
+	font-size:12px;
+	left: -274px;
+	top: 917px;
+	margin-left: 50%;
+	color: #000;
+}
+
+}
+/*////////////////      MEDIANO      /////////////////*/
+@media only screen and (min-width: 794px) and (max-width: 900px) {
+	
+#Titulo{
+    position:absolute;
+	width:517px;
+	height:57px;
+	font-family: "Anton";
+	font-size:37px;
+	left: -176px;
+	top: 10px;
+    margin-left: 50%;
+	color: #FFF;
+	}
+#Encabezado{
+	position:absolute;
+	width:516px;
+	height:48px;
+	font-family: "Anton";
+	font-size:18px;
+	left: -175px;
+	top: 70px;
+	margin-left: 50%;
+	color: #FFF;
+	}
+.Linea{
+	position:absolute;
+	width:350px;
+	height:0px;
+	border: 1px solid white;
+	left: -175px;
+	margin-left: 50%;
+	top: 65px;
+	border-radius: 10px;
+	}
+#Numero{
+	position:absolute;
+	width:174px;
+	height:51px;
+	font-family: "Anton";
+	font-size:37px;
+	left: -48px;
+	top: 140px;
+	margin-left: 50%;
+	color: #FFF;
+	}
+#Fecha_y_Hora{
+	position:absolute;
+	width:418px;
+	height:51px;
+	font-family: "Anton";
+	font-size:20px;
+	left: -378px;
+	top: 217px;
+	margin-left: 50%;
+	color: #FFF;
+	}
+.Publicita img{
+	position:absolute;
+	width:120px;
+	height:120px;
+	z-index:9;
+	margin:0px;
+	right: 4px;
+	top: 186px;
+	}
+.Caja {
+	position:absolute;
+	width:750px;
+	height:450px;
+	border: 3px solid white;
+	left: -378px;
+	margin-left: 50%;
+	top: 246px;
+	border-radius: 10px;
+	}
+.Logo img {
+	position:absolute;
+	width:170px;
+	height:170px;
+	left: -380px;
+	top: 14px;
+	margin-left: 50%;
+	}
+#InputField{
+	position:absolute;
+	width:730px;
+	height:430px;
+	font-family: "Anton";
+	font-size:28px;
+	text-align: center;
+	left: -366px;
+	top: 258px;
+	margin-left: 50%;
+	background: transparent;
+	border:none;
+	color: white;
+	resize: none;
+	}
+#Enviar{
+	position:absolute;
+	width:234px;
+	height:98px;
+	left: -118px;
+	top: 651px;
+	margin-left:  50%;
+	}
+#Arroba{
+	position:absolute;
+	width:535px;
+	height:35px;
+	font-family: "Anton";
+	font-size:28px;
+	left: -202px;
+	top: 810px;
+	margin-left: 50%;
+	color: #FFF;
+	}
+#CopyRight{
+	position:absolute;
+	width:553px;
+	height:26px;
+	font-family: "Arial";
+	font-size:12px;
+	left: -274px;
+	top: 917px;
+	margin-left: 50%;
+	color: #000;
+}
+
+}
+/*////////////////      GRANDE     /////////////////*/
+@media only screen and (min-width: 900px) {
+	
+#Titulo{
+    position:absolute;
+	width:517px;
+	height:57px;
+	font-family: "Anton";
+	font-size:37px;
+	left: -176px;
+	top: 10px;
+    margin-left: 50%;
+	color: #FFF;
+	}
+#Encabezado{
+	position:absolute;
+	width:516px;
+	height:48px;
+	font-family: "Anton";
+	font-size:18px;
+	left: -175px;
+	top: 70px;
+	margin-left: 50%;
+	color: #FFF;
+	}
+.Linea{
+	position:absolute;
+	width:350px;
+	height:0px;
+	border: 1px solid white;
+	left: -175px;
+	margin-left: 50%;
+	top: 65px;
+	border-radius: 10px;
+	}
+#Numero{
+	position:absolute;
+	width:174px;
+	height:51px;
+	font-family: "Anton";
+	font-size:37px;
+	left: -48px;
+	top: 140px;
+	margin-left: 50%;
+	color: #FFF;
+	}
+#Fecha_y_Hora{
+	position:absolute;
+	width:418px;
+	height:51px;
+	font-family: "Anton";
+	font-size:20px;
+	left: -378px;
+	top: 217px;
+	margin-left: 50%;
+	color: #FFF;
+	}
+.Publicita img{
+	position:absolute;
+	width:120px;
+	height:120px;
+	z-index:9;
+	left: 316px;
+	top: 186px;
+	margin-left: 50%;
+	}
+.Caja {
+	position:absolute;
+	width:750px;
+	height:450px;
+	border: 3px solid white;
+	left: -378px;
+	margin-left: 50%;
+	top: 246px;
+	border-radius: 10px;
+	}
+.Logo img {
+	position:absolute;
+	width:170px;
+	height:170px;
+	left: -380px;
+	top: 14px;
+	margin-left: 50%;
+	}
+#InputField{
+	position:absolute;
+	width:730px;
+	height:430px;
+	font-family: "Anton";
+	font-size:28px;
+	text-align: center;
+	left: -366px;
+	top: 258px;
+	margin-left: 50%;
+	background: transparent;
+	border:none;
+	color: white;
+	resize: none;
+	}
+#Enviar{
+	position:absolute;
+	width:234px;
+	height:98px;
+	left: -118px;
+	top: 651px;
+	margin-left:  50%;
+}
+#Arroba{
+	position:absolute;
+	width:535px;
+	height:35px;
+	font-family: "Anton";
+	font-size:28px;
+	left: -202px;
+	top: 810px;
+	margin-left: 50%;
+	color: #FFF;
+}
+#CopyRight{
+	position:absolute;
+	width:553px;
+	height:26px;
+	font-family: "Arial";
+	font-size:12px;
+	left: -274px;
+	top: 917px;
+	margin-left: 50%;
+	color: #000;
+}
+}
